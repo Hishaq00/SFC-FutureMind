@@ -1,0 +1,58 @@
+SonicSentinel AI - Deployed Application
+=======================================
+
+PUBLIC APPLICATION URL
+    https://wa.sarimtools.com/
+
+    Open in Chrome, Edge or Firefox. The GTM model runs in the browser.
+    The site is served over HTTPS, which is what allows the microphone to start.
+
+
+EVALUATOR CREDENTIALS
+    Username : evaluator
+    Password : Evaluate@2026
+    Role     : Competition Evaluator  (lands on System Overview)
+
+
+ADMINISTRATOR CREDENTIALS
+    Username : admin
+    Password : Admin@2026
+    Role     : Administrator  (full platform access)
+
+
+ALL DEMO ACCOUNTS
+    Username      Password         Role                    Default dashboard
+    -----------   --------------   ---------------------   -------------------
+    admin         Admin@2026       Administrator           System Overview
+    evaluator     Evaluate@2026    Competition Evaluator   System Overview
+    reviewer      Review@2026      Audio Reviewer          Review Desk
+    security      Secure@2026      Security Operator       Security Console
+    maintenance   Maintain@2026    Maintenance Personnel   Maintenance Console
+    user          User@2026        Normal User             Overview
+
+    admin         Full platform access, alert-rule configuration, evaluation
+                  runs, user management, administrative controls
+    evaluator     System demonstration, benchmark testing, project evaluation
+    reviewer      Manual review queue, audio playback, prediction inspection,
+                  category override
+    security      Live microphone monitoring, security-event tracking, alert
+                  acknowledgement, escalation, dismissal, resolution
+    maintenance   Machinery-fault monitoring, maintenance alerts, system and
+                  sensor health inspection
+    user          Personal audio analysis, uploads, waveform and spectrogram
+                  viewing, report downloads
+
+
+SAMPLE AUDIO
+    sample_audio/ in this folder - one clip per class, plus overlapping-sound
+    and low-confidence clips. None were used for training.
+
+
+TESTING INSTRUCTIONS
+    DEPLOYMENT.md in this folder - step by step, from sign-in through upload,
+    live microphone, alerts, manual review, history, export and administration.
+
+
+LOCAL EXECUTION (only if needed)
+    14 - Installation Instructions/INSTALLATION.md
+    15 - Execution Instructions/EXECUTION.md

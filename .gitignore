@@ -1,0 +1,6 @@
+﻿# Large files - too big for GitHub
+*.zip
+*.mp4
+*.joblib
+*.wav
+*.bin

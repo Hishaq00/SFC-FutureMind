@@ -1,0 +1,5 @@
+model,label,selected,cv_f1_macro,val_accuracy,val_f1_macro,test_accuracy,test_f1_macro,test_critical_recall_min,noise_0db_accuracy,fit_seconds,inference_ms_per_segment,hyperparameters
+random_forest,Random Forest,False,0.825,0.842,0.848,0.835,0.841,0.778,,63.5,0.12,"{""n_estimators"": 180, ""max_depth"": 25}"
+hist_gradient_boosting,Histogram Gradient Boosting,False,0.865,0.868,0.872,0.854,0.868,0.822,,150.3,0.08,"{""max_iter"": 150, ""min_samples_leaf"": 25}"
+mlp,Multi-layer Perceptron (neural network),False,0.845,0.852,0.858,0.846,0.852,0.8,,90.8,0.05,"{""hidden_layer_sizes"": (384, 192)}"
+ensemble_weighted,Soft-voting ensemble (HistGradientBoosting + Random Forest + MLP) + calibrated class weighting,True,0.885,0.915,0.92,0.912,0.915,0.889,0.625,304.6,0.25,"{""members"": [""hist_gradient_boosting"", ""random_forest"", ""mlp""], ""weights"": [0.45, 0.35, 0.20]}"
